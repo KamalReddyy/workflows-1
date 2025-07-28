@@ -2,8 +2,8 @@ name: my first work flow
 on: push
 
 jobs:
-    first_job:
-        runs_on: ubuntu-latest
+  first_job:
+    runs_on: ubuntu-latest
 
         steps:
           - name: checkout code
